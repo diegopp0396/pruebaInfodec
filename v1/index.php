@@ -23,7 +23,7 @@ $app->config('debug', true);
 
 $app->group('/app', 'authenticate', function () use ($app) {
 
-    $app->post('/hogar', function () use ($app) {
+    /*$app->post('/hogar', function () use ($app) {
 
         $data = json_decode($app->request->getBody(), true);
         $data = $app->request->post();
@@ -44,7 +44,7 @@ $app->group('/app', 'authenticate', function () use ($app) {
         $app->redirect("https://pruebasclaro.maxgp.com.co:4443/NodeJS/inicioFlujoHogar?OrigenPago=4&fecha=".$fecha.
             "&numeroCuenta=".$numeroCuenta."&valor=".$valor."&referencia=".$numeroReferencia."&fechalimitepago=".$fechaLimitePago.
             "&token=".$token."&nombreUsuario=".$nombreUsuario."&nombreCliente=".$nombreCliente);
-    });
+    });*/
 
     $app->post('/postpago', function () use ($app) {
 
