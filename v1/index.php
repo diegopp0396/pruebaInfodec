@@ -46,7 +46,7 @@ $app->group('/app', 'authenticate', function () use ($app) {
             "&token=".$token."&nombreUsuario=".$nombreUsuario."&nombreCliente=".$nombreCliente);
     });*/
 
-    $app->post('/postpago', function () use ($app) {
+    /*$app->post('/postpago', function () use ($app) {
 
         $data = $app->request->post();
 
@@ -68,7 +68,7 @@ $app->group('/app', 'authenticate', function () use ($app) {
             "&numeroCelular=".$numeroCelular."&valor=".$valor."&numeroFactura=".$numeroFactura .
             "&referencia=".$numeroReferencia."&fechalimitepago=".$fechaLimitePago.
             "&token=".$token."&nombreUsuario=".$nombreUsuario."&nombreCliente=".$nombreCliente);
-    });
+    });*/
 
 });
 
