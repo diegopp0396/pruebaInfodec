@@ -1,0 +1,18 @@
+# Not necessary #
+#################
+
+# Extensions #
+##############
+*.zip
+.ini
+
+# Files #
+#########
+test.php
+
+# Directories #
+#########
+/.idea
+/API
+/tmp
+/todo-eso
